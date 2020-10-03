@@ -5,7 +5,6 @@ import pandas as pd
 import pickle
 
 dataset = pd.read_csv('hiring.csv')
-#fillna is used to fill NaN values with suitable values
 
 dataset['experience'].fillna(0, inplace=True)
 
@@ -37,4 +36,4 @@ pickle.dump(regressor, open('model.pkl','wb'))
 
 # Loading model to compare the results
 model = pickle.load(open('model.pkl','rb'))
-print(model.predict([[5, 6, 7]])) 
+print(model.predict([[2, 9, 6]]))
