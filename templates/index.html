@@ -13,17 +13,17 @@
 
 <body>
 	<br>
-	<h2>Diabetic Survival Prediction</h2>
+	<h2>&emsp;&emsp;&emsp;Diabetic Survival Prediction</h2>
 	<div class="login">
 		<!-- Main Input For Receiving Query to our ML -->
 		<form action="{{ url_for('predict')}}"method="post">
 			<input class="input3" type="text" name="pregnant" placeholder="How many times have you been impregnated?">
 			<input class="input3" type="text" name="glucose" placeholder="What is your glucose level?">
-			<input class="input3" type="text" name="bp" placeholder="What is yout BP level">
-			<input class="input3" type="text" name="skin" placeholder="Your Email">
-			<input class="input3" type="text" name="insulin" placeholder="Your Email">
-			<input class="input3" type="text" name="bmi" placeholder="Your Email">
-			<input class="input3" type="text" name="pedigree" placeholder="What is pedigree">
+			<input class="input3" type="text" name="bp" placeholder="What is your BP level?">
+			<input class="input3" type="text" name="skin" placeholder="What is your skin thickness?">
+			<input class="input3" type="text" name="insulin" placeholder="What is your insulin level? ">
+			<input class="input3" type="text" name="bmi" placeholder="What is your bmi?">
+			<input class="input3" type="text" name="pedigree" placeholder="What is your pedigree level?">
 			<button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>					
 		</form>
 		<br>
