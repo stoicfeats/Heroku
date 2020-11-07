@@ -24,6 +24,7 @@ First we are going to collect the dataset and clean it. Then we will create a Lo
 
 Finally after a successive training it’s our main goal to integrate our machine learning model with the GUIs. You can use tkinter for making a desktop application like we did in Linear Regression example, but here we are going to integrate it with a web framework i.e Flask, to create a website that will take the input parameters from the user and predict if they are Diabetic or not.
 
+## Web app link : https://diabetes-preds.herokuapp.com/
 
 
 
